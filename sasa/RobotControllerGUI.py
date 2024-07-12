@@ -178,7 +178,7 @@ def run_scheduling_script(clinic_window):
     tk.Label(button_frame, text="Welcome to our clinics system").pack(pady=10)
 
     button_width = 20
-    button_height = 2
+    button_height = 1
 
     tk.Button(button_frame, text="Saturday", command=run_saturday_script, width=button_width, height=button_height).pack(pady=10)
     tk.Button(button_frame, text="Sunday", command=run_sunday_script, width=button_width, height=button_height).pack(pady=10)
