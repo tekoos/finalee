@@ -91,7 +91,7 @@ def option1_clicked():
 
 def start_chatbot(language):
     main_window.withdraw()
-    script_path = "/home/oem/sasa/GeminiArabic.py" if language == "Arabic" else "/home/oem/sasa/GeminiEnglish.py"
+    script_path = "/home/pi/Desktop/finalee/sasa/GeminiArabic.py" if language == "Arabic" else "/home/pi/Desktop/finalee/sasa/GeminiEnglish.py"
     python_executable = sys.executable
     subprocess.Popen([python_executable, script_path])
 
@@ -151,7 +151,7 @@ def create_TALK_WITH_ME_window(main_window):
     url = "http://192.168.67.250:3000/Teleoperation"
     webbrowser.open_new_tab(url)
     python_executable = sys.executable
-    script_path = "/home/oem/sasa/test.py"
+    script_path = "/home/pi/Desktop/finalee/sasa/test.py"
     subprocess.Popen([python_executable, script_path])
 def option4_clicked():
     global main_window
@@ -160,7 +160,7 @@ def option4_clicked():
 
 def run_importtime_script():
     python_executable = sys.executable
-    script_path = "/home/oem/sasa/importtime.py"
+    script_path = "/home/pi/Desktop/finalee/sasa/importtime.py"
     subprocess.Popen([python_executable, script_path])
 
 def run_scheduling_script(clinic_window):
@@ -192,42 +192,42 @@ def run_scheduling_script(clinic_window):
 def run_saturday_script():
     main_window.withdraw()
     python_executable = sys.executable
-    script_path = "/home/oem/sasa/saturday.py"
+    script_path = "/home/pi/Desktop/finalee/sasa/saturday.py"
     subprocess.Popen([python_executable, script_path])
 def run_sunday_script():
     main_window.withdraw()
     python_executable = sys.executable
-    script_path = "/home/oem/sasa/sunday.py"
+    script_path = "/home/pi/Desktop/finalee/sasa/sunday.py"
     subprocess.Popen([python_executable, script_path])
 
 def run_monday_script():
     main_window.withdraw()
     python_executable = sys.executable
-    script_path = "/home/oem/sasa/monday.py"
+    script_path = "/home/pi/Desktop/finalee/sasa/monday.py"
     subprocess.Popen([python_executable, script_path])
 
 def run_tusday_script():
     main_window.withdraw()
     python_executable = sys.executable
-    script_path = "/home/oem/sasa/tusday.py"
+    script_path = "/home/pi/Desktop/finalee/sasa/tusday.py"
     subprocess.Popen([python_executable, script_path])
 
 def run_wednsday_script():
     main_window.withdraw()
     python_executable = sys.executable
-    script_path = "/home/oem/sasa/wednsday.py"
+    script_path = "/home/pi/Desktop/finalee/sasa/wednsday.py"
     subprocess.Popen([python_executable, script_path])
 
 def run_thursday_script():
     main_window.withdraw()
     python_executable = sys.executable
-    script_path = "/home/oem/sasa/thursday.py"
+    script_path = "/home/pi/Desktop/finalee/sasa/thursday.py"
     subprocess.Popen([python_executable, script_path])
 
 def run_friday_script():
     main_window.withdraw()
     python_executable = sys.executable
-    script_path = "/home/oem/sasa/friday.py"
+    script_path = "/home/pi/Desktop/finalee/sasa/friday.py"
     subprocess.Popen([python_executable, script_path])
 def return_to_main_window(window):
     window.destroy()
